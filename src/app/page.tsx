@@ -61,7 +61,9 @@ const page = () => {
       </div>
 
       {/* Footer */}
-      <div></div>
+      <div>
+        <img className='mx-auto my-8 h-80 rounded-xl shadow-black shadow' src="/imagenes/user.jpg" alt="Carlos David" />
+      </div>
     </div>
   )
 }
