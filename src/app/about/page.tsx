@@ -23,12 +23,11 @@ const about = () => {
 
       {/* Body 2 */}
       <div className='flex justify-between mt-16 gap-x-24'>
-      <div className='w-1/2'>
-        <h3 className='text-2xl pb-8'>
-          HABILIDADES
-        </h3>
-        <div className='bg-gray-850 p-4 h-96'>
-          <div>
+        <div className='w-1/2'>
+          <h3 className='text-2xl pb-8'>
+            HABILIDADES
+          </h3>
+          <div className='bg-gray-850 p-4 h-96'>
             <div className='flex text-center gap-x-20 pt-7'>
               <div>
                 <img className='h-16 mx-auto' src="/imagenes/svg/html.svg" alt="html" />
@@ -59,30 +58,28 @@ const about = () => {
             </div>
           </div>
         </div>
-      </div>
 
-      <div className='w-1/2'>
-        <h3 className='text-2xl pb-8'>
-          ESTUDIANDO
-        </h3>
-        <div className='bg-gray-850 p-4 h-96'>
-          <div className='flex gap-x-20 pt-7'>
-            <div>
-              <img className='h-16 mx-auto' src="/imagenes/svg/node-js.svg" alt="node-js" />
-              <h4>NodeJs</h4>
-            </div>
-            <div>
-              <img className='h-16 mx-auto' src="/imagenes/svg/nextjs.svg" alt="nextjs" />
-              <h4>NextJs</h4>
-            </div>
-            <div>
-              <img className='h-16 mx-auto' src="/imagenes/svg/prisma.svg" alt="prisma" />
-              <h4>Prisma ORM</h4>
+        <div className='w-1/2'>
+          <h3 className='text-2xl pb-8'>
+            ESTUDIANDO
+          </h3>
+          <div className='bg-gray-850 p-4 h-96'>
+            <div className='flex gap-x-20 pt-7'>
+              <div>
+                <img className='h-16 mx-auto' src="/imagenes/svg/node-js.svg" alt="node-js" />
+                <h4>NodeJs</h4>
+              </div>
+              <div>
+                <img className='h-16 mx-auto' src="/imagenes/svg/nextjs.svg" alt="nextjs" />
+                <h4>NextJs</h4>
+              </div>
+              <div>
+                <img className='h-16 mx-auto' src="/imagenes/svg/prisma.svg" alt="prisma" />
+                <h4>Prisma ORM</h4>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
       </div>
     </div>
   )
