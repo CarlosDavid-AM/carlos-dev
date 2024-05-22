@@ -20,7 +20,7 @@ async function projects() {
       <h2 className='text-3xl mt-7'>
         Estos son mis proyectos personales en los que he trabajado a lo largo de mi carrera como programador. 
       </h2>
-      <div className='container mx-auto p-4'>
+      <div className='container mx-auto p-4 mb-8'>
         <div className='grid grid-cols-2 gap-4 mt-12 mb-4'>
           {
             repos.map(({id, name, html_url}: Repository) => (

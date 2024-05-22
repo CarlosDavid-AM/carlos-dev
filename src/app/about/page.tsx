@@ -22,7 +22,7 @@ const about = () => {
       </div>
 
       {/* Body 2 */}
-      <div className='flex justify-between mt-16 gap-x-24'>
+      <div className='flex justify-between mt-16 gap-x-24 mb-8'>
         <div className='w-1/2'>
           <h3 className='text-2xl pb-8'>
             HABILIDADES
