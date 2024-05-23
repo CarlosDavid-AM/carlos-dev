@@ -5,20 +5,20 @@ const page = () => {
   return (
     <div className='container mx-auto'>
       {/* Header */}
-      <div className='flex justify-between'>
-        <div className='w-1/2 flex flex-col gap-y-5 pt-14'>
-          <h1 className='text-6xl font-semibold'>
+      <div className='flex flex-col lg:flex-row justify-between'>
+        <div className='lg:w-1/2 text-center lg:text-start flex flex-col gap-y-5 pt-14'>
+          <h1 className='text-4xl lg:text-6xl font-semibold'>
             Carlos A. Mendoza
           </h1>
-          <h2 className='text-3xl'>
+          <h2 className='text-2xl lg:text-3xl'>
             Programador Wen Front-End &lt;/&gt;
           </h2>
-          <p className='mr-28 pt-3 font'>
+          <p className='lg:mr-28 pt-3'>
             Desarrollador web front end con experiencia en diseño y desarrollo de aplicaciones web utilizando
             tecnologías front-end.
           </p>
         </div>
-        <img className='h-72 mr-20' src="/imagenes/miPerfil.jpg" alt="miPerfil" />
+        <img className=' h-60 w-48 mx-auto lg:mx-0 lg:h-72 lg:w-56 lg:mr-20' src="/imagenes/miPerfil.jpg" alt="miPerfil" />
       </div>
 
       {/* Body */}
@@ -26,8 +26,8 @@ const page = () => {
         <h2 className='text-center mt-20 mb-14 text-2xl font-semibold'>
           ¿Qué me hace diferente?
         </h2>
-        <div className='flex text-center'>
-          <div className='w-1/3 flex flex-col gap-y-4 mx-4'>
+        <div className='flex flex-col gap-y-12 lg:gap-y-0 lg:flex-row text-center'>
+          <div className='lg:w-1/3 flex flex-col gap-y-4 mx-4'>
             <img src="/imagenes/Proyectos.png" alt="project-img" className='h-20 mx-auto'/>
             <h3 className='font-medium'>
               Proyectos personales y portafolio
@@ -37,7 +37,7 @@ const page = () => {
               de tareas con HTML, CSS y JavaScript.
             </p>
           </div>
-          <div className='w-1/3 flex flex-col gap-y-4 mx-4'>
+          <div className='lg:w-1/3 flex flex-col gap-y-4 mx-4'>
             <img src="/imagenes/Conosimientos.png" alt="knowledge-img" className='h-20 mx-auto'/>
             <h3 className='font-medium'>
               Conocimientos y habilidades técnicas
@@ -47,7 +47,7 @@ const page = () => {
               estructurar y estilizar contenido. Uso efectivo de herramientas como Git y GitHub para el flujo de trabajo de desarrollo.
             </p>
           </div>
-          <div className='w-1/3 flex flex-col gap-y-4 mx-4'>
+          <div className='lg:w-1/3 flex flex-col gap-y-4 mx-4'>
             <img src="/imagenes/Formacion.png" alt="training-img" className='h-20 mx-auto'/>
             <h3 className='font-medium'>
               Formación académica y cursos
@@ -62,7 +62,7 @@ const page = () => {
 
       {/* Footer */}
       <div>
-        <img className='mx-auto my-8 h-80 rounded-xl shadow-black shadow' src="/imagenes/user.jpg" alt="Carlos David" />
+        <img className='mx-auto my-8 h-52 lg:h-80 rounded-xl shadow-black shadow' src="/imagenes/user.jpg" alt="Carlos David" />
       </div>
     </div>
   )
