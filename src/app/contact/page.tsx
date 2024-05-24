@@ -1,9 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 const contact = () => {
   return (
-    <div className='mt-4 lg:mt-8 items-center justify-center'>
+    <div className='mt-8 items-center justify-center'>
       <div className='container mx-auto text-center p-5'>
-        <h2 className='text-3xl lg:mt-10'>
+        <h2 className='text-3xl mt-10'>
           Contáctame en:
         </h2>
         <div className='mt-5'>
