@@ -3,7 +3,7 @@ import Link from "next/link"
 const MainHeader = (): JSX.Element => {
   return (
     <div className='container mx-auto'>
-      <ol className='flex items-center ml-4 lg:ml-0 justify-center gap-x-4 lg:gap-x-0 lg:justify-between pt-3 pb-7 text-sm lg:text-base'>
+      <ol className='flex items-center justify-center gap-x-4 lg:gap-x-0 lg:justify-between pt-3 pb-7 text-sm lg:text-base'>
         <li ><Link href='/'>Carlos Dev</Link> </li>
         <div className='flex gap-x-5 items-center'>
           <li> <Link href='/about'>Sobre mi</Link> </li>
