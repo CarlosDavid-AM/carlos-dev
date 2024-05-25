@@ -1,19 +1,24 @@
-/* eslint-disable @next/next/no-img-element */
-async function getProjects() {
-  const res = await fetch('https://api.github.com/users/CarlosDavid-AM/repos')
-  const data = await res.json()
-  
-  return(data)
-}
+"use client"
 
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react-hooks/rules-of-hooks */
+
+import { useEffect, useState } from "react"
 interface Repository {
   id: number
   name: string
   html_url: string
 }
 
-async function projects() {
-  const repos = await  getProjects()
+function projects() {
+
+  const [repos, setRepos] = useState<[]>([])
+    
+  useEffect(() => {
+    fetch('https://api.github.com/users/CarlosDavid-AM/repos')
+    .then(res => res.json())
+    .then(data => setRepos(data))
+  }, [])
 
   return (
     <div className="container mx-auto">
