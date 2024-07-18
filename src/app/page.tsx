@@ -11,11 +11,10 @@ const page = () => {
             Carlos A. Mendoza
           </h1>
           <h2 className='text-2xl lg:text-3xl'>
-            Programador Wen Front-End &lt;/&gt;
+            Programador Web Full-Stack &lt;/&gt;
           </h2>
           <p className='lg:mr-28 pt-3'>
-            Desarrollador web front end con experiencia en diseño y desarrollo de aplicaciones web utilizando
-            tecnologías front-end.
+          Desarrollador Web Full Stack con experiencia en el diseño y desarrollo de aplicaciones web. 
           </p>
         </div>
         <img className=' h-60 w-48 mx-auto lg:mx-0 lg:h-72 lg:w-56 lg:mr-20' src="/imagenes/miPerfil.jpg" alt="miPerfil" />
@@ -33,8 +32,10 @@ const page = () => {
               Proyectos personales y portafolio
             </h3>
             <p className=' font-light'>
-              Desarrollé varios proyectos front-end, incluyendo mi propia página web usando React.js y una aplicación web de lista 
-              de tareas con HTML, CSS y JavaScript.
+              He desarrollado proyectos full stack, incluyendo una página web personal 
+              utilizando Next.js y una aplicación de lista de tareas con Node.js, Prisma ORM, HTML, CSS 
+              y JavaScript. <br /> Estos proyectos destacan mi capacidad para manejar tanto el front-end como 
+              el back-end de manera efectiva.
             </p>
           </div>
           <div className='lg:w-1/3 flex flex-col gap-y-4 mx-4'>
@@ -42,20 +43,24 @@ const page = () => {
             <h3 className='font-medium'>
               Conocimientos y habilidades técnicas
             </h3>
-            <p className=' font-light'>
-              Experiencia en el desarrollo de interfaces interactivas utilizando React.js. Conocimiento básico de HTML5 y CSS3 para 
-              estructurar y estilizar contenido. Uso efectivo de herramientas como Git y GitHub para el flujo de trabajo de desarrollo.
-            </p>
+            <ol className=' font-light'>
+              <li>Experiencia en el desarrollo de interfaces interactivas con React.js.</li>
+                <br />
+              <li>Competente en el desarrollo full stack con Next.js, Node.js y Prisma ORM.</li>
+                <br />
+              <li>Uso eficiente de herramientas de control de versiones como Git y GitHub para la gestión del flujo de trabajo de desarrollo.</li>
+            </ol>
           </div>
           <div className='lg:w-1/3 flex flex-col gap-y-4 mx-4'>
             <img src="/imagenes/Formacion.png" alt="training-img" className='h-20 mx-auto'/>
             <h3 className='font-medium'>
               Formación académica y cursos
             </h3>
-            <p className=' font-light'>
-              Tengo desarrollo Web: Cursos en línea en EDteam. Estoy certificado en Introducción a React. 
-              Plataforma de educación en línea.
-            </p>
+            <ol className=' font-light'>
+              <li>Cursos en línea de desarrollo web en diversas plataformas educativas.</li>
+                <br />
+              <li>Certificación en Introducción a React y en tecnologías relacionadas con el desarrollo full stack a través de plataformas de educación en línea.</li>
+            </ol>
           </div>
         </div>
       </div>

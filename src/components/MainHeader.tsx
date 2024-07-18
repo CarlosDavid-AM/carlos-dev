@@ -10,7 +10,7 @@ const MainHeader = (): JSX.Element => {
           <li> <Link href='/projects'>Proyectos</Link> </li>
           <li> <Link href='/contact'>Contacto</Link> </li>
           <li className='border rounded py-1 px-3 cursor-pointer hover:bg-slate-900'> 
-            <a href='https://drive.google.com/file/d/137CADqcXvq6n8fldumlbEcIrSK_r4wEh/view?usp=sharing' target='_blank'>
+            <a href='https://drive.google.com/file/d/1Cg6IhhLK-UkwmNI1YN5twes71pHZKAlO/view' target='_blank'>
               CV
             </a> 
           </li>

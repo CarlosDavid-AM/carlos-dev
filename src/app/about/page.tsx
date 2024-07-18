@@ -9,9 +9,10 @@ const about = () => {
       <div className='flex flex-col lg:flex-row justify-between font-light'>
         <div className='lg:w-1/2'>
           <p className='pt-14 mx-6 lg:mx-0'>
-            Como aspirante a desarrollador web front-end, estoy emocionado de iniciar mi carrera profesional y contribuir con mi 
-            pasión por la creación de experiencias digitales excepcionales. Mi formación y proyectos personales me han brindado sólidos 
-            conocimientos en HTML, CSS, JavaScript, React, TailwindCSS y TypeScript.
+            Como aspirante a desarrollador web full stack, estoy emocionado de iniciar mi carrera profesional y contribuir con mi pasión por
+            crear experiencias digitales excepcionales. Mi formación y proyectos personales me han proporcionado sólidos
+            conocimientos en tecnologías como HTML, CSS, JavaScript, React, TailwindCSS, TypeScript, Next.js, Node.js y Prisma ORM. Estas
+            habilidades me permiten desarrollar tanto el front-end como el back-end de aplicaciones web, brindando soluciones de calidad.
           </p>
           <p className='pt-12 mx-6 lg:mx-0'>
             Estoy comprometido con el aprendizaje continuo y seguiré explorando nuevas tecnologías y mejores prácticas para mejorar mis 
@@ -26,7 +27,7 @@ const about = () => {
         <div className='flex flex-col lg:flex-row mt-16 gap-x-24 mb-8'>
           <div className='lg:w-1/2'>
             <h3 className='text-2xl pb-8'>
-              HABILIDADES
+              Front-End
             </h3>
             <div className='bg-gray-850 p-4 h-96'>
               <div className='flex justify-center gap-x-16 pt-7'>
@@ -66,7 +67,7 @@ const about = () => {
 
           <div className='lg:w-1/2'>
             <h3 className='text-2xl pb-8 pt-16 lg:pt-0'>
-              ESTUDIANDO
+              Back-End
             </h3>
             <div className='bg-gray-850 p-4 h-96'>
               <div className='flex justify-center gap-x-16 pt-7'>
@@ -94,7 +95,7 @@ const about = () => {
         <div className='flex flex-col lg:flex-row justify-between mt-16 gap-x-24 mb-8'>
           <div className='lg:w-1/2'>
             <h3 className='text-2xl pb-8'>
-              HABILIDADES
+              Front-End
             </h3>
             <div className='bg-gray-850 p-4 h-96'>
               <div className='flex text-center gap-x-20 pt-7'>
@@ -130,7 +131,7 @@ const about = () => {
 
           <div className='lg:w-1/2'>
             <h3 className='text-2xl pb-8'>
-              ESTUDIANDO
+              Back-End
             </h3>
             <div className='bg-gray-850 p-4 h-96'>
               <div className='flex gap-x-20 pt-7'>
